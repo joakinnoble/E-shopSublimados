@@ -262,7 +262,7 @@ button {
 }
 
 .header_full_bg {
-     background: #17c1eb;
+     background: #ffffff;
 }
 
 .header_top {
@@ -294,7 +294,23 @@ ul.menu {
      left: 0;
      top: 0;
 }
-
+.whatsapp {
+     position:fixed;
+     width:80px;
+     height:80px;
+     bottom:80px;
+     right:80px;
+     background-color:#25d366;
+     color:#FFF;
+     border-radius:50px;
+     text-align:center;
+     font-size:50px;
+     z-index:100;
+   }
+   
+   .whatsapp-icon {
+     margin-top:13px;
+   }
 ul.menu li img {
      width: 37px;
      height: 20px;
@@ -616,7 +632,7 @@ ul.social_icon li a:hover {
 }
 
 .testimo_ban_bg {
-     background: #17c1eb;
+     background: #000000;
 }
 
 .testimo_ban::before {
